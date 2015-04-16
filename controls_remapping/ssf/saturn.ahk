@@ -467,6 +467,6 @@ Send {%Joy10Button% down}
 return
 
 Close:
-  IfWinNotExist, SSF
+  if !WinExist("ahk_exe ssf.exe")
     ExitApp
 Return
